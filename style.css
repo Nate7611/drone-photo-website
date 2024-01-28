@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292a36;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+div#site-header h1 {
+    color: #e5e5e5;
+    font-size: 4em;
+}
+
+#site-header {
+    background-color: #46475c;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.images {
+    width: 90vw;
+    background-color: #46475c;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 20px auto;
+}
+
+.images img {
+    width: 50%;
+    background-color: #636482;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
