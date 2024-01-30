@@ -105,6 +105,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4em;
     font-weight: 800;
     text-align:justify;
+    border: solid var(--background-color-3) 7px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 footer {
