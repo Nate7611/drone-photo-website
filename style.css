@@ -69,17 +69,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto 20px auto;
 }
 
-.image-container {
+#image-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
 }
 
-.image-container img {
+#image-container img {
     width: 100%;
     background-color: var(--background-color-3);
     padding: 8px;
     border-radius: 15px;
+    opacity: 100%;
+    transition: .4s ease;
+}
+
+#image-container img:hover {
+    scale: 1.15;
+    z-index: 2;
 }
 
 #about-text {
@@ -95,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px;
     background-color: var(--background-color-2);
     width: fit-content;
-    max-width: 90vw;
+    max-width: 75vw;
     border-radius: 15px;
     margin: 0 auto 40px auto;
 
